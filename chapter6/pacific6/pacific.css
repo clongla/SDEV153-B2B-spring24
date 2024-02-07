@@ -31,8 +31,9 @@ nav { float: left;
       padding-top: .5em;
       padding-right: .5em;
       padding-bottom: .5em;
-      position: left;}
-nav a {text-decoration: none;}
+      }
+nav a {text-decoration: none;
+      display: block;}
 nav a:link {color: #5c7fa3;}
 nav a:visited {color: #344873;}
 nav a:hover {color: #a52a2a;}
