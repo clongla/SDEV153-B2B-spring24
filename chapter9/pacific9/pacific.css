@@ -140,6 +140,8 @@ form {display: flex;
       width: 80%;}
 input, textarea { margin-bottom: .5em; 
                   }
+            input[type="submit"] { grid-column: 2 / 3;
+      width: 9em;} 
 #reshero {height: 300px;
       background-image: url(ocean.jpg);
       background-size: 200% 100%;
@@ -150,8 +152,7 @@ input, textarea { margin-bottom: .5em;
 		grid-gap: 1em;
 		; width: 60%; 
 		}
-      input[type="mySubmit"] { grid-column: 2 / 3;
-                       width: 9em;} 
+      
       #reshero {background-size: 100% 100%;}
 }
 
