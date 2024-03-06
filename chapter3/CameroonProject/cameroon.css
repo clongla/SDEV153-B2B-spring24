@@ -23,7 +23,7 @@ body { background-image: linear-gradient(to bottom, #FFFFFF 20%,#adf1ad 60%, #FF
       padding: 10px 20px;
       border-radius: 60px;
       align-items: center;
-      backdrop-filter: blur(4px) saturate (180%);
+      backdrop-filter: blur(1px);
 }
 .search-bar input{
       flex: 1;
@@ -98,12 +98,11 @@ nav a:hover {color: #f3e415;}
 }
 .header h1{
       font-size: 4vw;
-      font-weight: 50em;
+      font-weight: bold;
       text-align: center;
       color:  rgb(243, 5, 36);
       backface-visibility: visible;
       background-color: #222;
-      bo
 }
 main {padding-top: 0;
       padding-bottom: 0;
@@ -354,7 +353,6 @@ input, textarea { margin-bottom: .5em;
       }
       .campic2 .img2 {
             width: 200px;
-            align-items: left;
             height: auto;
             padding-top: 20px;
             float: left;
