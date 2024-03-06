@@ -70,6 +70,7 @@ nav {
       align-items: center;
       justify-content: space-between;
       padding: 5px 2%;
+      background: #222;
 }
 .nav-links li{
       list-style: none;
@@ -100,7 +101,9 @@ nav a:hover {color: #f3e415;}
       font-weight: 50em;
       text-align: center;
       color:  rgb(243, 5, 36);
-      padding-top: 22%;
+      backface-visibility: visible;
+      background-color: #222;
+      bo
 }
 main {padding-top: 0;
       padding-bottom: 0;
